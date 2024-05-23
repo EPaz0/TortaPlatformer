@@ -54,6 +54,9 @@ class Load extends Phaser.Scene {
         this.load.audio("jumpingJack2", "forceField_002.ogg");
         this.load.audio("jumping1", "phaseJump1.ogg");
         this.load.audio("jumping2", "phaseJump2.ogg");
+
+        this.load.image("tile_0009", "tile_0009.png");
+        this.load.image("tile_0010", "tile_0010.png");
     }
 
     create() {
